@@ -12,7 +12,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
       <img src="${typescriptLogo}" class="logo vanilla" alt="TypeScript logo" />
     </a>
     <h1>Chat Teslo-Shop</h1>
-    <span>Offline</span>
+    <span id="serverStatus">Offline</span>
   </div>
 `;
 
