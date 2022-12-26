@@ -5,8 +5,8 @@ import { connectToServer } from './socket-client';
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>
-    <a href="https://www.typescriptlang.org/" target="_blank">
-      <img src="${nestLogo}" class="logo vanilla" alt="TypeScript logo" />
+    <a href="https://docs.nestjs.com//" target="_blank">
+      <img src="${nestLogo}" class="logo vanilla" alt="NestJS logo" />
     </a>
     <a href="https://www.typescriptlang.org/" target="_blank">
       <img src="${typescriptLogo}" class="logo vanilla" alt="TypeScript logo" />
