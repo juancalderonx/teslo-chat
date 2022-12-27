@@ -17,7 +17,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
     <span id="serverStatus">Offline</span> <br>
     <p>For connect, please type your JWT</p>
 
-    <input type="text" id=jwtToken" placeholder= "JSON WEB TOKEN"/>
+    <input type="text" id="jwtToken" placeholder= "JSON WEB TOKEN"/>
     <button id="btn-connect">Connect</button>
 
     <br>
